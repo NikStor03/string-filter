@@ -37,4 +37,8 @@ censore = Censore()
 
 censore.censore("Hi fuckshit")
 # Hi ********
+
+censore.censore("Hi fuckshitpeople")
+# Hi ********people
+
 ```
