@@ -10,7 +10,7 @@ Just transfer main.py to your project
 # Usage
 
 Fast start
-```
+```py
 import Censore
 
 censore = Censore()
