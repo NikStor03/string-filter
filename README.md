@@ -15,6 +15,26 @@ import Censore
 
 censore = Censore()
 
-censore.censore("fuck")
-# ****
+censore.censore("fuck you")
+# **** you
+```
+
+Add your own words
+```py
+import Censore
+
+censore = Censore()
+
+censore.censore("Hi test man", ['test', 'hi'])
+# ** **** man
+```
+
+Deep filter
+```py
+import Censore
+
+censore = Censore()
+
+censore.censore("Hi fuckshit")
+# Hi ********
 ```
