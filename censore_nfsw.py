@@ -66,5 +66,4 @@ if __name__ == "__main__":
 
     cen = cen.censore("A peace of shit")
     # A peace of ****
-
     print(cen)
