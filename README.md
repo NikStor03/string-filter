@@ -11,7 +11,7 @@ Just transfer main.py to your project
 
 Fast start
 ```py
-import Censore
+from filter import Censore
 
 censore = Censore()
 
