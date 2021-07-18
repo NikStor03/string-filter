@@ -11,7 +11,7 @@ Just transfer main.py to your project
 
 Fast start
 ```py
-from filter import Censore
+from string_filter import Censore
 
 censore = Censore()
 
@@ -21,7 +21,7 @@ censore.censore("fuck you")
 
 Add your own words
 ```py
-import Censore
+from string_filter import Censore
 
 censore = Censore()
 
@@ -31,7 +31,7 @@ censore.censore("Hi test man", ['test', 'hi'])
 
 Deep filter
 ```py
-import Censore
+from string_filter import Censore
 
 censore = Censore()
 
