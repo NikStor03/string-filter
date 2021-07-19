@@ -29,6 +29,16 @@ censore.censore("Hi test man", ['test', 'hi'])
 # ** **** man
 ```
 
+Add your own words
+```py
+from string_filter import Censore
+
+censore = Censore()
+
+censore.censore("Hi test man", custom_words=['test', 'hi'], masking_symbol="$")
+# $$ $$$$ man
+```
+
 Deep filter
 ```py
 from string_filter import Censore
