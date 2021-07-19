@@ -25,18 +25,18 @@ from string_filter import Censore
 
 censore = Censore()
 
-censore.censore("Hi test man", ['test', 'hi'])
+censore.censore("Hi test man", custom_words=['test', 'hi'])
 # ** **** man
 ```
 
-Add your own words
+Custom symbol
 ```py
 from string_filter import Censore
 
 censore = Censore()
 
-censore.censore("Hi test man", custom_words=['test', 'hi'], masking_symbol="$")
-# $$ $$$$ man
+censore.censore("A peace of shit", masking_symbol="$")
+# A peace of $$$$
 ```
 
 Deep filter
